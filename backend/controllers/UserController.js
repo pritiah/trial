@@ -37,6 +37,9 @@ const registerUser = asyncHandler(async(req, res)=>{
     res.json({message:"register user"});
 })
 
+//@desc login a user
+//@route POST /api/users/login
+//@access public
 const loginUser= asyncHandler(async(req,res)=>{
     res.json({message:"login user"})
 })
